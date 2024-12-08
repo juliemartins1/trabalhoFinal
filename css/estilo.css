@@ -10,20 +10,6 @@
   justify-content: center;
   align-items: center;
 }
-
-.nome {
-    font-size: 48px; color: black;
-    max-width: 100%;
-    justify-content: center;
-    background-color: #05e84b  
-}
-
-.logo {
-  justify-self: flex-start;
-  width: 150px;
-  height: 150px;
-}
-
 .navbarNav {
   padding: 20px;
   display: flex;
@@ -47,32 +33,6 @@
   border-radius: 10px;
 }
 
-.conteudo {
-  display: block;
-  justify-content: center;
-}
-
-.titulo1 {
-  font-size: 20px;
-  color:black;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.texto {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  justify-self: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #05e84b;
-}
-
-
 .galeriacontainer {
   display: grid;
   grid-template-columns:1fr 1fr 1fr; 
@@ -81,50 +41,10 @@
   justify-content: center;
 }
 
-
-.item1, .item2, .item3,.item4, .item5, .item6{
-  justify-self: center;
-  max-width: 200px;
-  margin-left: 5px;
-  border-radius: 10px;
-}
-.gridgaleria {
-  grid-template-columns: 1fr; 
-  padding-left: 50px;
-  gap: 30px;
-  width: 100px;
-}
-
 .imagem-container {
   display: grid;
   justify-content: center; 
   grid-area: imagem-container;
-}
-
-.imagem {
-  max-width: 100%; 
-  height: auto;
-  border-radius: 10px; 
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-}
-
-.formulario {
-  display: grid;
-  grid-column: 2; 
-  align-self: center;
-  justify-items: stretch;
-  gap: 1rem;
-  background-color:#05e84b;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  grid-area: formulario-container;
-  max-width: 400px;
-}
-
-.formulario fieldset {
-  max-width: 400px;
-  justify-content: center;
 }
 
 .grid-container {
@@ -139,14 +59,6 @@
   grid-template-areas: ". imagem-container formulario-container . ";
 }
 
-.mensagem {
-  display: flex;
-  max-width: 207px;
-  min-width: 183px;
-}
-.h3 {
-  font-size: 16px;
-}
 .rodape {
   justify-content: center;
   background-color: #05e84b;
@@ -166,57 +78,13 @@
   }
 
   .grid-container {
-    grid-template-columns:1fr;
+    grid-template-columns:1 fr;
     grid-template-areas: "imagem-container"
     " formulario-container";
    
   }
-  .titulo1 {
-    font-size: 18px;
-  }
-  .nome{
-    width: 100%;
-  }
-  .texto {
-    font-size: 14px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .menu li {
-    margin-bottom: 10px;
-  }
-
-  .menu a {
-    padding: 0.8em;
-    font-size: 14px;
-  }
-
   .imagem1, .imagem2, .imagem3 {
     width: 200px;  
-  }
-    
-  .formulario{
-    justify-content: center;
-      font-size: 14px;
-  }
-  .galeriacontainer{
-    grid-template-columns: 1fr;  
-    gap: 15px;
-  }
-
-    
-  .item1, .item2, .item3, .item4, .item5, .item6 {
-      max-width: 100%;
-      justify-self: center; 
-      grid-template-columns: 1fr;
-      width:200px ;
-    
-  }
-
-
-  .h3 {
-    font-size: 14px;
   }
 
   .rodape {
