@@ -68,7 +68,7 @@
             <h2 class="text-center">Nossos Produtos</h2>
             <div class="galeriacontainer">
                 <div>
-                    <img class="imagem1" src="img/cadeira.webp(correct-dimensions)" alt="Cadeira" width="300" height="200" data-bs-toggle="modal" data-bs-target="#modal1">
+                    <img class="imagem1" src="img/cadeira.webp" alt="Cadeira" width="300" height="200" data-bs-toggle="modal" data-bs-target="#modal1">
                 </div>
                 <div>
                     <img class="imagem2" src= "img/cama.webp" alt="Cama" width="300" height="200" data-bs-toggle="modal" data-bs-target="#modal2">
@@ -85,7 +85,10 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Cadeira</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Abrir menu de navegação">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
                     </div>
                     <div class="modal-body">
                         <img src="img/cadeirarodasortobras.webp" alt="Cadeira" width="300" height="200" data-bs-toggle="modal" data-bs-target="#modal1">">
@@ -94,13 +97,16 @@
                 </div>
             </div>
         </div>
-        <!-- Repita o padrão acima para os outros modais -->
+      
         <div class="modal fade" id="modal2" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">cama</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Abrir menu de navegação">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
                     </div>
                     <div class="modal-body">
                         <img src="img/camavenda.webp" alt="Cama Hospitalar" class="img-fluid">
@@ -114,7 +120,10 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Cilindro</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Abrir menu de navegação">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
                     </div>
                     <div class="modal-body">
                         <img src="img/cilindro.webp" alt="Cilindro de Oxigenio" class="img-fluid">
@@ -172,8 +181,8 @@
                     <input type="text" class="form-control" id="inputTelephone" placeholder="(xx) xxxxx-xxxx">
                     </div>
                     <div class="col-md-4">
-                    <label class="form-label">Mensagem</label>
-                    <input type="text" class="form-control" id="inputMessage" placeholder="Texto Aqui">
+                    <label>Mensagem</label>
+                    <input type="text" class="form-control" id="inputMessage">
                     </div>
                     <div class="col-12">
                     <button type="submit" class="btn btn-primary">Enviar</button>
