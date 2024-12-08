@@ -40,26 +40,11 @@
 }
 
 @media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .titulo1 {
-    font-size: 18px;
-  }
-
-  .imagem1, .imagem2, .imagem3 {
+    .imagem1, .imagem2, .imagem3 {
     width: 200px;  
   }
     
-  .formulario{
-    justify-content: center;
-      font-size: 14px;
-  }
-
-  .rodape {
+ .rodape {
     flex-direction: column;
     align-items: center;
   }
