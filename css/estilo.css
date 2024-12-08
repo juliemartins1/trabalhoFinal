@@ -20,43 +20,12 @@
   list-style: none;
   background-color: #05e84b;
 }
-.imagens {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;    
-  
-}
 
 .imagem1, .imagem2, .imagem3 {
+  padding: 20px;
    max-width: 200px;
    height: auto;
   border-radius: 10px;
-}
-
-.galeriacontainer {
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr; 
-  gap: 20px;
-  padding: 10px;
-  justify-content: center;
-}
-
-.imagem-container {
-  display: grid;
-  justify-content: center; 
-  grid-area: imagem-container;
-}
-
-.grid-container {
-  display: grid; 
-  grid-template-columns:1fr 2fr 2fr 1fr;
-  justify-content: center;
-  align-self: flex-end;
-  gap: 20px; 
-  align-items: center;
-  justify-items: center;
-  padding: 20px;
-  grid-template-areas: ". imagem-container formulario-container . ";
 }
 
 .rodape {
@@ -77,14 +46,17 @@
     padding: 10px;
   }
 
-  .grid-container {
-    grid-template-columns:1 fr;
-    grid-template-areas: "imagem-container"
-    " formulario-container";
-   
+  .titulo1 {
+    font-size: 18px;
   }
+
   .imagem1, .imagem2, .imagem3 {
     width: 200px;  
+  }
+    
+  .formulario{
+    justify-content: center;
+      font-size: 14px;
   }
 
   .rodape {
