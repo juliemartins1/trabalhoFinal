@@ -20,6 +20,11 @@
   list-style: none;
   background-color: #05e84b;
 }
+.carousel-control-next, .carousel-control-prev{
+  opacity: 1;
+  background-color: black;
+
+}
 
 .imagem1, .imagem2, .imagem3 {
   padding: 20px;
@@ -40,11 +45,17 @@
 }
 
 @media (max-width: 768px) {
-    .imagem1, .imagem2, .imagem3 {
+
+  .titulo1 {
+    font-size: 18px;
+  }
+
+  .imagem1, .imagem2, .imagem3 {
     width: 200px;  
   }
-    
- .rodape {
+  
+
+  .rodape {
     flex-direction: column;
     align-items: center;
   }
@@ -54,8 +65,5 @@
     align-items: center;
   }
 
-  .logo {
-    width: 120px;
-    height: 120px;
-  }
+ 
 }
